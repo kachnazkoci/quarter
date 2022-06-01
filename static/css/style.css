@@ -1,0 +1,33 @@
+.playingArea {
+width: 50%;
+margin: 10px auto 10px auto;
+border-collapse:collapse;
+border: 0px solid #557e18;
+background-color:white;
+font-size:15px;
+color: #252f22;
+}
+
+.playingArea thead th, .playingArea thead td {
+    vertical-align:center;
+    text-align:center;
+    height: 50px;
+    width: 50px;
+}
+.playingArea tr td{
+    vertical-align:center;
+    text-align:center;
+    height: 50px;
+    width: 50px;
+}
+
+.playingArea tr td input {
+  background-color: #0a2a0c; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

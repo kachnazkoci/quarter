@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+</head>
+<body>
+<h1>QUATRO</h1><br>
+{% for stone in object_list %}
+    <p>print({{ stone.hex }})</p>
+{% endfor %}<br>
+{{ object.stone1 }}
+<table class = "playingArea">
+    <thead>
+    <tr>
+        <th>XXX</th>
+        <th>I</th>
+        <th>II</th>
+        <th>III</th>
+        <th>IV</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th>I</th>
+        <td><input type="button" onclick="alert('Hello World!')" value="{{ object.field11 }}"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>II</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>III</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>IV</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    </tbody>
+</table>
+<br>
+<table>
+    <tr><td><input type="button" onclick="alert('Hello World!')" value="{{ object.stone1 }}"></td></tr>
+</table>
+<br><br>
+
+
+
+</body>
+</html>
